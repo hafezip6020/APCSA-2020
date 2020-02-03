@@ -19,8 +19,16 @@ public class Variables
 
 		//integer variables
 		byte byteOne = 127;
-
-
+		short shortOne = 58;
+		int a = 150; 
+		long l = 122222;
+		float f = 1.234f;
+		double d = 12.453244;
+		char c = 'g';
+		boolean b = false;
+	    String sar = "band";
+	    
+	    
 		//decimal variables
 
 
@@ -32,13 +40,26 @@ public class Variables
 
 		//output your information here
 		System.out.println("/////////////////////////////////");
-		System.out.println("*                               *");
-		System.out.println("*        integer types          *");
-		System.out.println("*                               *");
-		System.out.println("*8 bit - byteOne = "+byteOne+"\t\t*");
+		System.out.println("* Parsa Hafezi          2//3//2020   *");
+		System.out.println("*        integer types               *");
+		System.out.println("*                                    *");
+		System.out.println("*8 bit - byteOne = "+byteOne+"\t\t   *");
+		System.out.println("*16 bit - ShortOne = "+shortOne+"\t\t*");
+		System.out.println("*32 bit - intOne = "+a+"\t\t         *");
+		System.out.println("*64 bit - LongOne = "+l+"\t\t        *");
+		System.out.println("*                                    *");
+		System.out.println("*        real types                  *");
+		System.out.println("*                                    *");
+		System.out.println("*32 bit - floatOne = "+f+"\t\t       *");
+		System.out.println("*64 bit - doubleOne = "+d+"\t\t      *");
+		System.out.println("*                                    *");
+		System.out.println("*        other types                 *");
+		System.out.println("*                                    *");
+		System.out.println("*booleanOne = "+b+"\t\t              *");
+		System.out.println("*string = "+sar+"\t\t                *");
 
 
-
+		
 
 
 
