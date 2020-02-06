@@ -31,14 +31,7 @@ public class MPHRunner
 		test.calcMPH();
 		test.toString();
 		System.out.println(test);
-		
-		/*Distance D = new Distance(xValue1,xValue2, yValue1, yValue2);
-	    System.out.println("Distance Calculations");
-	    D.toString();
-	    System.out.println("\n");
-	    D.calcDistance();
-	    System.out.println(D); */
-		
+	
 		
 	}
 }
