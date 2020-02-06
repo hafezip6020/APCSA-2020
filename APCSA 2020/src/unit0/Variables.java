@@ -57,6 +57,7 @@ public class Variables
 		System.out.println("*                                    *");
 		System.out.println("*booleanOne = "+b+"\t\t              *");
 		System.out.println("*string = "+sar+"\t\t                *");
+		System.out.println("*char = "+c+"\t\t                *");
 
 
 		
