@@ -6,12 +6,13 @@ package unit3;
 //Date -
 //Class -
 //Lab  -
+//
 
 import java.util.Scanner; 
 import static java.lang.System.*;
 import static java.lang.Math.*;
 
-public class DistanceRunner
+public class DistanceRunner // all test cases test and correct output was returned.
 {
 	public static void main( String[] args )
 	{
