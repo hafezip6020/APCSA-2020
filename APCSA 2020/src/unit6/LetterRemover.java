@@ -24,24 +24,18 @@ public class LetterRemover
 	
 	public void setRemover(String s, char rem)
 	{
-		sentence = s;
-		lookFor = rem;
+		setRemover(s,rem);
 	}
 
 	public String removeLetters()
 	{
 		String cleaned=sentence;
 		int indexOfChar = 0;
-		for (int i = 0; i<cleaned.length() ; i++) {
+		while(sentence.indexOf(lookFor)!=-1) {
 			indexOfChar=cleaned.indexOf(lookFor);
 			cleaned = cleaned.substring(0,indexOfChar) + cleaned.substring(indexOfChar+1);
 		}
 		return cleaned;
-	}
-
-	private void indexOf() {
-		// TODO Auto-generated method stub
-		
 	}
 
 	public String toString()
