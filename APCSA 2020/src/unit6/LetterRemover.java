@@ -24,14 +24,15 @@ public class LetterRemover
 	
 	public void setRemover(String s, char rem)
 	{
-		setRemover(s,rem);
+		sentence = s;
+		lookFor = rem;
 	}
 
 	public String removeLetters()
 	{
 		String cleaned=sentence;
 		int indexOfChar = 0;
-		while(sentence.indexOf(lookFor)!=-1) {
+		while(cleaned.indexOf(lookFor)!=-1) {
 			indexOfChar=cleaned.indexOf(lookFor);
 			cleaned = cleaned.substring(0,indexOfChar) + cleaned.substring(indexOfChar+1);
 		}
